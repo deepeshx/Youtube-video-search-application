@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search  engine</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--	<meta name = "description" content="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<!--	<link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+<style type="text/css">
+/*	body {background: #f5c9c5;}  */
+/*	body #results { max-height: 500px; max-width: 500px; } */
+header { margin-top: 30px; }
+header a { color: black; text-decoration: none; }
+header a: hover {text-decoration: none;}
+form { margin-top: 20px; }
+/*form , #results { padding: 0 20px; } */
+/*form-control btn btn-primary w100*/
+.item { margin-bottom: 25px; }
+.w100 { width: auto; margin: auto; }
+.sub { background: #952b2b; border-color: #957575;}
+.sub: hover, .btn-primary: active, .btn-primary: focus{background: #782b2b; border-color: #952b2b; }
+#search{ width: auto; height: auto; }
+body a { color: blue; }
+body {background-image: url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/08/Youtube-HD-Wallpapers-9.jpg");}
+/*body #results { max-height: 100px; max-width: 100px;} */
+#results { color: white; }
+</style>
+<body>
+
+<header>
+            <h1 class="w100 text-center"><a href="youtube1.html">COMPLETE YOUTUBE SEARCH</a></h1>
+        </header>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="#">
+                    <p><input type="text" id="search" placeholder="Type something..." autocomplete="off" class="form-control" /></p>
+                    <p><input type="submit" value="Search" class="form-control btn sub w100 "></p>
+ 					<h1>sasas</h1>
+                </form>
+                <div  id="results" style="max-height:400px; max-width:400px;"></div>
+            </div>
+        </div>
+        <!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="app.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+</body>
+</html>
+
